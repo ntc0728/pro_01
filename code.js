@@ -35,9 +35,15 @@ git push -u origin master
 push:推送
 -u:固定用法
 
-
+git remote rm origin
 git remote add origin https://github.com/ntc0728/pro_01.git
 git push -u origin master
 
+后续提交：git push
+git status -> git add . -> git status -> git commit -m '描述信息' -> git push
+
+git push -u origin master -f force 强制push
+控制面板 -> windows凭证 -> 需要删除 ->
+Invalid username and password ->
 
 */
