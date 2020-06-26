@@ -24,4 +24,12 @@ git commit -a -m '描述信息'
 
 忽略文件：是之前没有被添加到追踪的文件
 
+
+remote:远程的意思
+add:添加
+
+git remote add origin git@github.com:ntc0728/pro_01.git
+git push -u origin master
+
+
 */
