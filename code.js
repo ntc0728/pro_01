@@ -27,9 +27,13 @@ git commit -a -m '描述信息'
 
 remote:远程的意思
 add:添加
-
+origin:默认的名字 远程的分支的名称
+xx.git:明确的远程的仓库地址
 git remote add origin git@github.com:ntc0728/pro_01.git
 git push -u origin master
+
+push:推送
+-u:固定用法
 
 
 */
