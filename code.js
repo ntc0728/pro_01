@@ -36,4 +36,8 @@ push:推送
 -u:固定用法
 
 
+git remote add origin https://github.com/ntc0728/pro_01.git
+git push -u origin master
+
+
 */
