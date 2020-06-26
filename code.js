@@ -46,4 +46,37 @@ git push -u origin master -f force 强制push
 控制面板 -> windows凭证 -> 需要删除 ->
 Invalid username and password ->
 
+
+生成 ssh key 命名： ssh-keygen -t rsa 4096 -C '1343810646@qq.com'
+C:\Users\用户文件夹\.ssh 目录中生成 id_rsa -T git@github.com
+检查：ssh key 是否配置成功的命令:ssh -T git@github.com
+
+克隆：就是把远程的代码拷贝一份到本地
+git clone git@github.com:ntc0728/pro_01.git
+
+
+分支：树的树杈 branch
+3个前端 -> 没人一个分支 -> 合并分支+
+master分支，一般情况下不在master主分支里面开发，主要做合并的分支
+功能分支：主要做某一块的业务功能 login master 分支合并
+
+
+查看分支列表：git branch * 标识的是当前所处的分支
+创建功能分支 git branch 分支名称
+特点：在master分支上，新建了一个login分支上面的代码和master分支上完全一致
+      不管是建了多少分支，此时仍在主分支上，不会进行切换
+
+切换分支：git checkout 分支名称
+
+先创建，同时并切换分支：git checkout -b 分支名称
+
+合并分支：1.先切换分支 git checkout 分支名称    (主分支合并功能分支)
+         2.再运行 git merge 命令，合并分支
+
+
+
+
+
+
+
 */
